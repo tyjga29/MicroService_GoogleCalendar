@@ -1,0 +1,9 @@
+{
+  "token": "NONSENSE-ya29.a0AfB_byCxJeDwiwNdJNRDxyzJ6K6hWiFc-YvtejlI87YbzKtuUKg1f2KMyFn2JKEq0ck3CVEMnExOF-RCzsM4qStjbLvb-yPJJbHghwNCGAvkNIDoKz1pBNGT-nvpjdijqchc_AAkeRfnBbNgsc980TWKyHssl5sAmQ1VaCgYKAfgSARISFQGOcNnC4Y7J1-5KsXUFkj6YDaeIFw0171",
+  "refresh_token": "NONSENSE-1//09799OxNoL9K8CgYIARAAGAkSNwF-L9IrBOfx3yiXcI-8RTOXvQMU4ygJlpKhQ_6LbpoU3m0OaQzBSqRdzXut1qofuWHUONf9SSA",
+  "token_uri": "https://nonsense-oauth2.googleapis.com/token",
+  "client_id": "NONSENSE-783424704946-t8ur0c6s2fjjlnsi4fph353ae0i2f48i.apps.googleusercontent.com",
+  "client_secret": "NONSENSE-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",
+  "scopes": ["https://www.googleapis.com/auth/calendar"],
+  "expiry": "NONSENSE-2023-11-06T14:09:54.084626Z"
+}
