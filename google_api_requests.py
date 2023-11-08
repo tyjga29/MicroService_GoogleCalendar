@@ -5,7 +5,7 @@ from googleapiclient.errors import HttpError
 
 from google_api_token import getCreds
 
-# Returns 20 Events
+# Returns 20 Events from the Google CalendarAPI
 def getEvents():
     creds = getCreds()
     try:
