@@ -1,7 +1,7 @@
 from datetime import datetime, timezone
 import dateutil.parser
 
-from google_api_requests import getEvents
+from google_calendar_package.google_api_requests import getEvents
 
 ALLOWED_SUMMARIES = ["Gym", 
                      "Work", 

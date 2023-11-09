@@ -3,7 +3,7 @@ import datetime
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
-from google_api_token import getCreds
+from google_calendar_package.google_api_token import getCreds
 
 # Returns 20 Events from the Google CalendarAPI
 def getEvents():

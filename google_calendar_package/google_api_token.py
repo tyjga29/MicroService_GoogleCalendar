@@ -16,18 +16,18 @@ def getValidGoogleTokens():
 
     creds = None
 
-    if os.path.exists('resources_package/token.json'):
-        creds = Credentials.from_authorized_user_file('resources_package/token.json', SCOPES)
+    if os.path.exists('google_calendar_package/resources_package/token.json'):
+        creds = Credentials.from_authorized_user_file('google_calendar_package/resources_package/token.json', SCOPES)
     # If there are no (valid) credentials available, let the user log in.
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())
         else:
             flow = InstalledAppFlow.from_client_secrets_file(
-                'resources_package/credentials.json', SCOPES)
+                'google_calendar_package/resources_package/credentials.json', SCOPES)
             creds = flow.run_local_server(port=0)
         # Save the credentials for the next run
-        with open('resources_package/token.json', 'w') as token:
+        with open('google_calendar_package/resources_package/token.json', 'w') as token:
             token.write(creds.to_json())
 
     return creds
