@@ -24,6 +24,7 @@ class DateTimeEncoder(JSONEncoder):
 
 def send_events(events):
     client = mqtt.Client()
+    client.username_pw_set("pda_user","pda_password")
     client.connect(broker_address, broker_port)
     # Add a delay to allow time for the connection to establish
     time.sleep(2)  # Adjust the delay time as needed
